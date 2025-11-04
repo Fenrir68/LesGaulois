@@ -11,7 +11,7 @@ public class TestGaulois {
 		Gaulois obelix = new Gaulois("Obélix", 16);
 		Druide panoramix = new Druide("Panoramix", 2);
 		
-		Romain minus = new Romain("Minus", 6);
+		//Romain minus = new Romain("Minus", 6);
 		Romain brutus = new Romain("Brutus", 14);
 		
 		panoramix.fabriquerPotion(4, 3);

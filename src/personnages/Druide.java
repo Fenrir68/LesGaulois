@@ -33,7 +33,7 @@ public class Druide {
 		boolean contientPotion = chaudron.resterPotion();
 		String nomGaulois = gaulois.getNom();
 		if(contientPotion) {
-			if(nomGaulois == "Obélix") {
+			if(nomGaulois.equals("Obélix")) {
 				parler("Non " + nomGaulois + "Non!...Et tu le sais très bien !");
 			}else {
 				int forcePotion = chaudron.prendreLouche();
