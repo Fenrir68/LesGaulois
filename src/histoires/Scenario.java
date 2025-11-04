@@ -2,6 +2,7 @@ package histoires;
 
 import personnages.Druide;
 import objets.Equipement;
+import objets.Musee;
 import personnages.Gaulois;
 import personnages.Romain;
 
@@ -35,8 +36,10 @@ public class Scenario {
 		
 //		Partie a decommenter
 		
-//		Musee musee = new Musee();
-//		asterix.faireUneDonnation(musee);
+		Musee musee = new Musee();
+		asterix.faireUneDonation(musee);
+		
+		System.out.println(musee.extraireInstructionOCaml());
 
 	}
 
